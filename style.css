@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background: purple;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  padding: 3rem;
+  background: white;
+  border-radius: 0.5rem;
+  display: flex;
+}
+
+section {
+  width: 30rem;
+}
+
+section p {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #9b9b9a;
+  cursor: pointer;
+}
+
+section p.active {
+  color: black;
+}
+
+section p span {
+  background-color: #eeefee;
+  color: #7b7a7b;
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+
+section p.active span {
+  background-color: #0076b4;
+  color: white;
+}
+
+section article {
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.action-button button {
+  border: none;
+  padding: 1.5rem;
+  font-size: 1.8rem;
+  background: #e6e6e6;
+  border-radius: 0.2rem;
+  cursor: pointer;
+}
+
+.action-button .back-button.hide,
+.action-button .submit-button.hide {
+  display: none;
+}
